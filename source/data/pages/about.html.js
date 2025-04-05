@@ -17,6 +17,10 @@ export default ({ getImages }) => ({
 				description: 'Фриланс, самостоятельное обучение и повышение навыков',
 				name: 'Февраль 2023 - н.в.:'
 			},
+			{
+				description: 'Работа в компании Corteos',
+				name: 'Август 2024 - н.в.:'
+			},
 		],
 		image: getImages('avatar', { alt: 'Это я.' }),
 		oneList: [
@@ -59,7 +63,8 @@ export default ({ getImages }) => ({
 					'HTML5, семантика',
 					'Валидность',
 					'Доступность',
-					'Шаблонизация (twig)',
+					'Шаблонизация (twig, Razor )',
+					'Vue2',
 					'Vue3',
 					'Разделение верстки и скриптов/стилей'
 				],
